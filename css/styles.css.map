@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/styles.scss",
+        "../sass/_general.scss",
+        "../sass/_header.scss",
+        "../sass/_seccion-principal.scss",
+        "../sass/_footer.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

@@ -1,0 +1,54 @@
+// Versión escritorio
+@media (min-width: 1024px) {
+    header {
+        margin-bottom: 126px;
+
+        .main-nav {
+            .logo-nav-container {
+                .nav-bar {
+                    display: none;
+                }
+            }
+
+            .menu {
+                margin-left: 0;
+                display: flex;
+                justify-content: space-around;
+                padding: 0.6em;
+
+                .menu__link {
+                    padding: 6px 24px;
+
+                }
+
+                .container-submenu {
+                    position: relative;
+
+                    .submenu {
+                        position: absolute;
+                        top: 46px;
+                        width: 244px;
+                        overflow: visible;
+                        z-index: 999;
+                        opacity: 0;
+                        visibility: hidden;
+
+                        .menu__link {
+                            &:hover {
+                                border-radius: 0px;
+                                background: $rosa;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .submenu {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

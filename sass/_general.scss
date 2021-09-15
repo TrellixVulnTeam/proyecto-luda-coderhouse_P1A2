@@ -5,4 +5,18 @@ $rosa: #E8BFBC;
 $rosa-claro: #F3DFDD;
 $ocre: #C89449;
 $ocre-claro: #E3C599;
-$gris: #E5E1E1;
+/* $gris: #E5E1E1; */
+$gris: #ececec;
+
+* {
+    /* Para tener la base de 10px */
+    /* font-size: 10px; */
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}

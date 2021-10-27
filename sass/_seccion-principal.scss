@@ -1,9 +1,16 @@
+.seccion-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 100px - 200px);
+}
+
 // Carrusel
 .carrusel {
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        background-color: $verde-claro;
+        background-color: #C0D5BC;
         border-radius: 6px;
         width: 1.8em;
     }
@@ -14,5 +21,167 @@
 
     .carousel-control-next-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23637B7E'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+}
+
+// Contenedores Bajos
+.pink {
+    background: #F3DFDD;
+
+}
+
+.pinkO {
+    background: #E8BFBC;
+
+}
+
+.sub1 {
+    padding-top: 20px;
+}
+
+.ocre {
+    background: #C89449;
+    margin-top: -1em;
+}
+
+.imgRed {
+    border-radius: 16px;
+    width: 92%;
+}
+
+// Página: Sobre la psicomotricidad
+.textos-paginas {
+
+    .titulo-sobre-paginas {
+        color: #637B7E;
+        font-size: 3.5em;
+        line-height: 0.98em;
+    }
+
+    .descripcion-paginas {
+        margin-top: 1em;
+        color: #637B7E;
+        line-height: 1em;
+        text-align: justify;
+        font-size: 1em;
+    }
+}
+
+
+// Página: Quiénes somos
+.nombres {
+    color: #637B7E;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.signo-mas {
+    color: orange;
+}
+
+.propuesta-container {
+    width: 10em;
+    text-align: center;
+
+    .propuesta {
+        background-color: $verde-claro;
+        color: $verde-oscuro;
+        font-weight: 700;
+        margin: 1em 0;
+        border-radius: 1em;
+        padding: 0.2em;
+    }
+}
+
+.img-quienes-somos {
+    width: 18.8em;
+    margin-top: 1em;
+}
+
+// Página: Contacto
+.ficha-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: $verde-claro;
+    padding: 1.4em;
+    width: 25em;
+    border-radius: 6%;
+
+    .descripcion-paginas {
+        text-align: center;
+    }
+
+    .iconos-redes {
+        margin: 1.4em 0;
+        margin-top: 1.6em;
+        color: $verde-oscuro;
+
+        i {
+            margin: 0 0.2em;
+            font-size: 1.48em;
+        }
+    }
+
+    .datos-contacto {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        color: $verde-oscuro;
+
+        p {
+            margin: 0 0.6em;
+        }
+    }
+}
+
+// Página: Categorías de productos
+.titulo-categorias {
+    padding-bottom: 1.28em;
+
+    .col {
+        p {
+            color: rgb(46, 46, 46);
+        }
+    }
+}
+
+.color-1 {
+    background-color: $rosa;
+}
+
+.color-2 {
+    background-color: $ocre;
+}
+
+.color-3 {
+    background-color: $verde-claro;
+}
+
+.color-4 {
+    background-color: $ocre-claro;
+}
+
+.imagen-categorias {
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+
+        img {
+            border-radius: 1em;
+            width: 80%;
+            transition: all 0.3s ease;
+
+            &:hover {
+                -webkit-box-shadow: 6px 0px 61px -34px rgba(0, 0, 0, 0.79);
+                -moz-box-shadow: 6px 0px 61px -34px rgba(0, 0, 0, 0.79);
+                box-shadow: 6px 0px 61px -34px rgba(0, 0, 0, 0.79);
+            }
+        }
     }
 }

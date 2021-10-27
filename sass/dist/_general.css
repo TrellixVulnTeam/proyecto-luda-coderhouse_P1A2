@@ -1,0 +1,50 @@
+/* Paleta de colores */
+/* $gris: #E5E1E1; */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+* {
+  /* Para tener la base de 10px */
+  /* font-size: 10px; */
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+body .ocultar {
+  display: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.col-3 {
+  width: 28%;
+}
+
+.rosa {
+  color: #E8BFBC;
+}
+
+.celeste {
+  color: steelblue;
+}
+
+.azul {
+  color: #637B7E;
+}
+
+.ocre {
+  color: #C89449;
+}
+
+.sub1 {
+  font-size: 24px;
+  color: black;
+}

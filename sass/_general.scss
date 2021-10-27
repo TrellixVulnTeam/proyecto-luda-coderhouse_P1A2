@@ -8,6 +8,11 @@ $ocre-claro: #E3C599;
 /* $gris: #E5E1E1; */
 $gris: #ececec;
 
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
 * {
     /* Para tener la base de 10px */
     /* font-size: 10px; */
@@ -17,6 +22,39 @@ $gris: #ececec;
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
+
+    .ocultar {
+        display: none;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.col-3 {
+    width: 28%;
+}
+
+.rosa {
+    color: $rosa;
+}
+
+.celeste {
+    color: steelblue;
+}
+
+.azul {
+    color: $verde-oscuro;
+}
+
+.ocre {
+    color: $ocre;
+}
+
+.sub1 {
+    font-size: 24px;
+    color: black;
 }
